@@ -3,7 +3,7 @@
   "name": "What model are you?",
   "createdAt": "2026-11-23T21:47:30.900Z",
   "filename": "09b84c3e-a075-4752-bb88-dd2b298af800.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "aa38b034-bd7a-4e97-a4b0-d19ab0e0dbaf",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-11-23T21:48:01.822Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "3aa55c98-f881-4b32-8643-23ace42289da",
+      "role": "agent",
+      "content": "I am Gemini 3.8 Flash, a large language model built by Google.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "aa38b034-bd7a-4e97-a4b0-d19ab0e0dbaf",
+      "created_at": "2026-11-23T21:48:09.203Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "e623c38c-f156-4dbc-821f-049b23f7a7a0",
+      "role": "user",
+      "content": "Hey",
+      "status": "pending",
+      "model": "gemini-3.8-flash-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-23T21:48:27.633Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "35f37505-1022-4a05-92be-98c9123476b6",
+      "role": "agent",
+      "content": "Hey there! How can I help you with your project today?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-medium",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "e623c38c-f156-4dbc-821f-049b23f7a7a0",
+      "created_at": "2026-11-23T21:48:34.535Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
